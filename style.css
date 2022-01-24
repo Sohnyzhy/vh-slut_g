@@ -1,6 +1,6 @@
 body {
-  background: #44AA44;
-  background-color: #44AA44;
+   background: linear-gradient(#e66465, #9198e5);
+   height: 100vh;
 }
 
 h1 {
@@ -9,10 +9,24 @@ h1 {
 }
 
 p {
-   font-family Times New Roman;
+   font-family: 'Times New Roman', Times, serif;
    font-size: 1.5em;
 }
 
 a {
    color: white;
+   text-transform: uppercase;
+   font-size: 20px;
+   text-decoration: none;
+  
+}
+
+nav {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+a:hover {
+   color: black;
 }
